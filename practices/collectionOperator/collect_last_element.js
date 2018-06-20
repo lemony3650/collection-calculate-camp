@@ -1,8 +1,9 @@
 'use strict';
 
 function collect_last_element(collection) {
-  //在这里写入代码
-  return collection[collection.length-1];
+  //pop出栈最后一个元素
+  return collection.pop();
+  //  return collection[collection.length-1];
 }
 
 module.exports = collect_last_element;
